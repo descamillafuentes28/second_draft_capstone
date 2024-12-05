@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone-Corporate Strategy-Peloton</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+HK:wght@200..900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nanum+Pen+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+
+<body>
+  
+  
+
+    
+    
+    <section id="scrolly">
+
+      <div class="sticky-thing">
+      </div>
+
+      <article>
+        <div class="step" data-step="1">
+          <p>The New York City-based company, Peloton, was one of the pandemic’s biggest success stories.</p>
+        </div>
+
+        <div class="step" data-step="2">
+          <p>As gyms and studios were forced to shut down, fitness devotees had no choice but to turn to home workouts and equipment, spiking Peloton’s hardware sales and app memberships.</p>
+        </div>
+
+        <div class="step" data-step="3">
+          <p>On January 13, 2021, their shares closed at a record high of $167.4, today, its stock does not trade above $10 per share. 
+          </p>
+        </div>
+
+        
+
+      </article>
+    
+    </section>
+    
+    <section id="outro"></section>
+   
+    <p class="caption">PHOTO: PELOTON</p> 
+
+    <h1>Peloton tries to pedal its way back to the top and appoints new CEO</h1>
+
+    <p class="byline">By Diana Escamilla Fuentes</p>
+
+    <p class="date">Nov. 17, 2024, 12:00 p.m. ET</p>
+
+    <p>Peloton Interactive Inc. is betting that a new chief executive officer, the co-founder of Apple fitness will be able to attract new consumers and retain old ones through software innovation and return the company to its pandemic-era profitability.</p>
+
+    
+
+    <p>After almost five months since the departure of their last CEO, Barry McCarthy, on Thursday, the fitness brand appointed Peter Stern, an expert in technology and subscription-based businesses, as their new CEO effective January 1, 2025. Shares jumped 28% on the news.
+    </p>
+
+    <div id="lineChart"></div>
+
+    <p>“Overall, we believe he is an apt pick in Peloton’s current strategy of expanding its fitness subscription businesses,” Dana Telsey, CEO and chief research officer of the Telsey Advisory Group wrote in a November 1, 2024 research note.
+    </p>
+
+    <h3>The Company's Woes</h3>
+
+    <p>Peloton’s hardware sales and app subscriptions plummeted after pandemic lockdowns eased and people started going back to their pre-covid lives, including gyms and studios, as the need to workout at home faded. At the same time, a series of shipment delays, product recalls, the death of a famous tv character and competition from cheaper manufacturers of exercise equipment picked up as consumers became more picky amid an uncertain economic backdrop. The company also shifted its focus to subscriptions just as it became harder to grab new customers, hitting revenues.</p>
+
+
+    <p>The appointment of a permanent CEO offers clarity and puts forward Peloton’s goal of restructuring their app software by adding features such as personalized plans that could drive subscriber growth.</p>
+        
+    <p>Stern is no stranger to the fitness industry and subscription-based businesses. As co-founder of Apple Fitness+, he substantially contributed to its growth of members.</p>  
+        
+    <p>“Peter is a seasoned leader and strategist with over 20 years of experience operating at the intersection of hardware, software, services and content at Ford, Apple and Time Warner Cable,” said Peloton’s interim co-CEO Karen Boone during an earnings call on Thursday morning. 
+    </p>
+
+    <p>However, Stern, the fifth CEO in six years, will inherit a company in financial distress.</p>
+
+    
+
+    <div class="timeline">
+
+      <div class="timeline_title">
+        <p>Peloton's CEOs</p>
+      </div>
+
+      <div class="CEO_names">
+        <p>John Foley</p>
+          <p>June 2012 - February 2022</p>
+      </div>
+
+      <div class="CEO_names">
+        <p>Barry McCarthy</p>
+          <p>February 2012 - May 2024</p>
+      </div>
+
+      <div class="CEO_names">
+        <p>Chris Bruzzo</p>
+          <p>May 2024 - October 2024</p>
+      </div>
+
+      <div class="CEO_names">
+        <p>Karen Boone</p>
+          <p>May 2024 - December 2024</p>
+      </div>
+
+      <div class="CEO_names">
+        <p>Peter Stern</p>
+          <p>Juanuary 2025</p>
+      </div>
+
+    </div>
+    
+    <p>According to Paul Golding, senior US payments and digital commerce analyst at Macquarie, subscriber and revenue overall are the baseline drivers of Peloton and they’re not meeting expectations.</p>
+
+    <p>Peloton reported a loss of $551.9 million or $1.51 a share for the fiscal year ended 2024 on revenue of $2.70 billion.</p>
+
+    <p>“Those drivers, the levels that they are expecting continue to decline,”  said Golding. “So while the profitability and cash flow metrics, seemingly based on their forecasts, are improving, the baseline drivers are not. Continued subscriber decline is expected and continued revenue decline is expected in their forecast that they are sharing with the Street.”
+    </p>
+
+    <div id="revenueChart"></div>
+
+    <h3>The Strategy</h3>
+
+    <p>A decline in subscribers is alarming as it became Peloton’s focus after a substantial decline in their hardware sales.</p>
+
+    <p>Barry McCarthy “was trying to make it more of a subscription business versus just an equipment business. That proved challenging because it’s very competitive,” said Sanmet Deo, senior investment analyst at The Motley Fool.</p>
+    
+
+    <p>While gym equipment is a one-time purchase, Peloton looked to keep those who’d bought equipment active members by offering unique, fresh content on their app platforms. Members could either choose a free slimmed down version of the app, a $12.99 monthly fee, or pay $24 per month for full access. </p>
+    
+    <p>The idea was to drive revenue from the loyal customers the company amassed during their pandemic peak. Aime Thacker, a retired science middle school teacher and fitness enthusiast, is one of them. Thacker bought a Peloton bike three years ago and has remained a loyal consumer ever since, paying her monthly subscription dues and adding to her exercise equipment collection. </p>
+    
+
+    <p>"We have had several stationary bikes, rowers and treadmills and the quality compared to Peloton was like comparing a Ford Fiesta to a Mercedes-Benz,” said Thacker, a South Carolina resident. “They’re quiet, they make absolutely no noise whatsoever and I like having access to the app for the classes, they’re very motivating."
+    </p>
+
+    <img class="bikeImage" src="images/bike-1.jpg">
+    <p class="caption">PHOTO: PELOTON</p>
+
+    <p>Thacker and her husband like the convenience of having exercise equipment at home and are planning on acquiring the treadmill soon.
+    </p>
+
+    <p>Pamela Rutledge, professor Emerita of Media Psychology at Fielding Graduate University studied the dynamic Peloton had with its consumers and why it was so successful.</p>
+
+    <p>She attributed this connection to the parasocial relationships the instructors built with members. Members were often rewarded for their achievements and commitment and they got to enjoy an uplifting fitness community without leaving the comfort of their homes.
+    </p>
+
+    <p>But as the pandemic subsided and competition grew, it wasn’t enough to keep the business profitable. Churn rates, which measure how many customers leave a business in a set period, have increased as members leave the company -- as of June 30, 2024 Peloton reported 6.4 million members, down from the 6.5 million members at the same time in 2023.
+    </p>
+
+    <h3>Looking At The Future</h3>
+
+    <p>The company doesn’t see things picking up immediately, even with a new CEO at the helm. In its latest earnings report, Peloton said it expects a weak holiday season, usually their most profitable quarter. 
+    </p>
+
+
+    <p>The fitness brand is expecting revenue to come in between $640 million and $660 million, down from $744 million from last year’s second quarter.
+    </p>
+
+    <p>For now, Peloton is leaning on partnerships with other well-established brands, such as their most recent partnership with Costco, to keep the company afloat. While shares are still far from their pandemic peak, the partnership with Costco boosted the stock, which is up 40% so far this year. 
+    </p>
+
+    
+
+    
+  
+
+
+    <script>
+/*
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+      
+      var scroller = scrollama();
+      
+      function handleStepEnter(response){
+        var el = response.element;
+        console.log("Entering step:", el);
+      
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+      
+        sticky.querySelector("p").innerText = `Step number ${el.dataset.step}`;
+      }
+      
+      function handleStepExit(response){
+        var el = response.element;
+        console.log("Exiting step:", el);
+      
+        if (el === steps [steps.length - 1]){
+        el.style.visibility = 'hidden';
+        }
+        else {
+          el.style.visibility = '';
+        }
+      }
+      
+      function init(){
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.50,
+            debug: true
+          })
+          .onStepEnter(handleStepEnter)
+          .onStepExit(handleStepExit);
+      
+          window.addEventListener("resize", scroller.resize);
+      }
+      
+      init(); */
+     
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const margin = { top: 70, right: 70, bottom: 60, left: 175 };
+    const width = 600 - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+    
+    const x = d3.scaleTime().range([0, width]);
+    const y = d3.scaleLinear().range([height, 0]);
+
+    const svg2 = d3.select("#lineChart")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    d3.csv("data.csv").then(function(data) {
+        const parseDate = d3.timeParse("%m-%d-%Y");
+
+        
+        data.forEach(d => {
+            d.date = parseDate(d.Date);
+            d.Close = +d.Close; 
+        });
+
+        console.log(data);
+
+        
+        x.domain(d3.extent(data, d => d.date));  
+        y.domain([0, d3.max(data, d => d.Close)]);  
+
+        
+        svg2.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(d3.timeMonth.every(1)).tickFormat(d3.timeFormat("%b %Y")))
+            .style("color", "white");
+
+        svg2.append("g")
+            .call(d3.axisLeft(y))
+            .style("color", "white");
+
+        
+        const line = d3.line()
+            .x(d => x(d.date))  
+            .y(d => y(d.Close));  
+
+        
+        svg2.append("path")
+            .datum(data) 
+            .attr("fill", "none")
+            .attr("stroke", "#0D786F")
+            .attr("stroke-width", 3)
+            .attr("d", line);  
+    }).catch(function(error) {
+        console.error("Error loading the CSV data:", error);
+    });
+    });
+
+
+
+   document.addEventListener("DOMContentLoaded", function() {
+      const margin = { top: 70, right: 70, bottom: 60, left: 175 };
+      const width = 600 - margin.left - margin.right;
+      const height = 400 - margin.top - margin.bottom;
+
+      const svg = d3.select("#revenueChart").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      const data = [
+        { revenue_data: "2019", total: 915 },
+        { revenue_data: "2020", total: 1825.9 },
+        { revenue_data: "2021", total: 4021.8 },
+        { revenue_data: "2022", total: 3582.1 },
+        { revenue_data: "2023", total: 2800.2 },
+        { revenue_data: "2024", total: 2700.5 },
+        ];
+
+        const x = d3.scaleBand()
+          .range([0, width])
+          .domain(data.map(d => d.revenue_data))
+          .padding(0.1);
+
+      const y = d3.scaleLinear()
+          .range([height, 0])
+          .domain([0, d3.max(data, function(d) { return d.total; })]);
+
+      const xAxis = d3.axisBottom(x).tickSize(0);
+      const yAxis = d3.axisLeft(y).tickSize(0);
+
+      const tooltip = d3.select("body").append("div")
+          .attr("class", "tooltip");
+
+      svg.selectAll("line.horizontal-grid")
+          .data(y.ticks(8))
+          .enter().append("line")
+          .attr("class", "horizontal-grid")
+          .attr("y1", function(d){ return y(d); })
+          .attr("x1", width)
+          .attr("y2", function(d){ return y(d); })
+          .attr("x2", 0)
+          .style("stroke", "gray")
+          .style("stroke-width", 0.5);
+
+      svg.selectAll(".bar")
+          .data(data)
+          .enter().append("rect")
+          .attr("class", "bar")
+          .attr("x", function(d) { return x(d.revenue_data); })
+          .attr("y", function(d) { return y(d.total); })
+          .attr("height", function(d) { return height - y(d.total); })
+          .attr("width", x.bandwidth())
+          .on("mouseover", function(event, d) {
+              tooltip.transition().duration(200).style("visibility", "visible").style("opacity", 1);
+              tooltip.html(`    
+              $${d.total.toFixed(2)} million
+              `)
+                .style("left", `${event.pageX + 10}px`)
+                .style("top", `${event.pageY - 28}px`);
+          })
+          .on("mousemove", function(event) {
+              tooltip.style("left", `${event.pageX + 10}px`)
+                .style("top", `${event.pageY - 28}px`);
+          })
+          .on("mouseout", function() {
+              tooltip.transition().duration(200).style("visibility", "hidden").style("opacity", 0);
+          });
+
+          svg.append("g")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xAxis)
+              .style ("color", "white")
+              .style("stroke", "white");
+              
+
+          svg.append("g")
+              .call(yAxis)
+              .style("stroke", "white");
+
+          svg.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("x", -height / 2)
+              .attr("y", -margin.left + 120)
+              .style("text-anchor", "middle")
+              .style("font-size", "12px")
+              .style("font-weight", "bold")
+              .style("font-family", "arial")
+              .style("fill", "white")
+              .text("(in millions)");
+
+          svg.append("text")
+              .attr("x", margin.left - 210)
+              .attr("y", margin.top - 110)
+              .style("font-size", "16px")
+              .style("font-weight", "bold")
+              .style("font-family", "arial")
+              .style("fill", "white")
+              .text("Peloton's total revenue since its IPO");
+
+          svg.append("text")
+              .attr("transform", "translate(" + (margin.left - 210) + "," + (height + margin.bottom - 10) + ")")
+              .style("text-anchor", "start")
+              .style("font-size", "10px")
+              .style("fill", "gray")
+              .style("font-family", "arial")
+              .text("CHART: DIANA ESCAMILLA FUENTES • SOURCE: PELOTON");
+        });
+
+      
+    
+      
+
+//});
+      
+      
+      </script>
+    
+    
+
+</body>
+</html>
+
+
+
+
+
+
